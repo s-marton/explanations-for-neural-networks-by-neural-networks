@@ -14,3 +14,4 @@ lambda_nets_total  | 50,000  | number of lambda-nets trained (lambda_nets_total 
 lambda_dataset_size | 5,000  | number of samples per polynomial
 lambda_dataset_size | 50,000  | number of trained lambda-nets used for the training of I-Net (interpretation_dataset_size <= lambda_nets_total))
 noise | 0  | noise level
+interpretation_net_output_monomials | 5 | max number of monomials contained in the polynomial predicted by the I-Net (usually equals the sample_sparsity)
